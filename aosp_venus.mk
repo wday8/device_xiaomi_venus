@@ -18,7 +18,6 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 IS_PHONE := true
 TARGET_GAPPS_ARCH = arm64
 TARGET_BOOT_ANIMATION_RES := 1440
-
 PRODUCT_NAME := aosp_venus
 PRODUCT_DEVICE := venus
 PRODUCT_BRAND := Xiaomi
